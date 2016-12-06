@@ -16,4 +16,5 @@ TextArea plus
 Title Plus
 	* Style CSS : directely set some additionnal CSS style to the input
 		
-		
+
+<img src="ScreenShot.jpg"/>		
