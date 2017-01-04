@@ -16,5 +16,22 @@ TextArea plus
 Title Plus
 	* Style CSS : directly set some additional CSS style to the input
 		
+CheckList :
+	The standard checkList REMOVE the attribut in the result JSON when nothing is selected.
+	So, if you use a CheckList, map to a contract, the submit will be rejected, or you have to do that in your formOutput
+		'color' : $data.formInput.color || null
+	To avoid this behavior and to not worry of the usage of the widget in the formOutput, use this CheckList.
+	Plus : 	
+	* Style CSS : directly set some additional CSS style to the input
 
+Select
+	Same behavior as the CheckList : if not value is selected, the widget REMOVE the attribut.
+	Plus : 	
+	* Style CSS : directly set some additional CSS style to the input
+		
+RadioButton
+	Same behavior as the CheckList : if not value is selected, the widget REMOVE the attribut.
+	Plus : 	
+	* Style CSS : directly set some additional CSS style to the input
+	
 <img src="ScreenShot.jpeg"/>	
